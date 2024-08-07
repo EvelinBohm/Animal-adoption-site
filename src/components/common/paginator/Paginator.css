@@ -1,0 +1,17 @@
+.list-page-button {
+margin: 10px;
+width: 50px;
+height: 20px;
+border-radius: 15px;
+border-color: #B58DED;
+background-color: transparent;
+color: #B58DED;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-active {
+    background-color: #B58DED;
+    color: white;
+    border-color: #B58DED;
+}
+  

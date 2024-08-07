@@ -1,0 +1,27 @@
+
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "user1",
+        "lastName": "user1",
+        "email": "user1@email.com",
+        "password": "user1User!"
+      },
+      {
+        "id": 2,
+        "name": "techie",
+        "firstName": "user2",
+        "lastName": "user2",
+        "email": "techie@email.com",
+        "password": "techie"
+      },
+      {
+        "id": 3,
+       "firstName": "user3",
+        "lastName": "user3",
+        "email": "user@email.com",
+        "password": "user"
+      }
+    ]
+  }

@@ -1,0 +1,76 @@
+.homePage-container{
+  overflow: hidden;
+}
+
+.homePage-background-image{
+    background-image: url("../../../public/background-home.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    width: auto;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+.homePage-content-container{
+  text-align: center;
+}
+
+.homePage-searchbar{
+  width:500px;
+  height:70px;
+  border-radius: 10px;
+  border-color: transparent;
+
+}
+.homePage-searchbar::placeholder{
+  font-size: 18px;
+}
+.homePage-searchbar:focus{
+  outline: none;
+  font-size: 25px;
+  color: #333;
+}
+
+.homePage-title{
+  margin-top:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color:white;
+}
+
+.homePage-subtext{
+  margin-top:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:white;
+
+}
+.homePage-card{
+margin-top:10px;
+width:150px;
+height: 150px;
+background-color: white;
+border-radius: 5px;
+display: felx;
+flex-direction: column;
+transition: transform 250ms;
+}
+.homePage-card .icon{
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.homePage-card-direction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .homePage-card:hover{
+    transform: translateY(-10px);
+  }

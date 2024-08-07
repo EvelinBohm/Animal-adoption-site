@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  .logo {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .logoIcon {
+    margin-left: 8px;
+  }
+  
+  
+  .navbar {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 70px;
+    background-color: #333;
+    position: relative;
+    width: 100vw;
+    
+  }
+  
+  .navMenu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: white; 
+    font-size:20px;
+    transition: color .2s ease-in-out;
+    padding-top: 5px;
+  }
+  
+  .navItem:hover {
+    font-family:"Abril Fatface", sans-serif;
+    /* background: linear-gradient(to right, crimson, pink, #B58DED); */
+    background-color:#B58DED ;
+    background-size: 200% 100%;
+    background-clip: text;
+    color: transparent; 
+    animation: rainbow 2s ease-in-out infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }
+  
+  .search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+  }
+  .search-input-visible {
+    visibility: visible;
+  }
+  .search-input-hidden {
+    visibility: hidden;
+  }
+  
